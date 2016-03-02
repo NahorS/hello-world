@@ -1,2 +1,3 @@
 # hello-world
-Starting GitHub
+Just having a feel GitHub.
+Languages -C,C++, more to come
