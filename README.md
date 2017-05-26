@@ -1,3 +1,4 @@
-# hello-world
-Just having a feel for GitHub.
-Languages -C,C++, more to come
+Hello World
+
+The following barnch contains the freeCodeCamp's website projects.
+Will be updated as the projects are completed.
