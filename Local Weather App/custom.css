@@ -1,0 +1,52 @@
+body{
+  text-align:center;
+  background-color:#618685;
+}
+.btn-info{
+  margin-left:4%;
+  color:#000000;
+}
+#showWeather #temp:after{
+  content:" \00b0";
+}
+#showWeather #minTemp:after{
+  content:" \00b0";
+}
+#showWeather #maxTemp:after{
+  content:" \00b0";
+}
+#orText{
+  margin-left:2%;
+  color:#fefbd8;
+}
+#getCurrentLocButton{
+  margin-left:2%;
+}
+#changeUnits{
+  margin-left:-1%;
+}
+canvas{
+  margin-left:2%;
+}
+#getCurrentLocButton:hover{
+  background-color:#0ff0f0;
+  color:#000000;
+}
+#citySubmitButton:hover{
+  background-color:#666666;
+  color:#ffffff;
+}
+#searchBar{
+  margin-top:2%;
+}
+#showWeather{
+  color:#fefbd8;
+  margin-bottom:3%;
+}
+#credits{
+  color:#000000;
+}
+#myName{
+  margin-top:1%;
+  color:#d9ecd0;
+}

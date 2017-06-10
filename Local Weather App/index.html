@@ -1,0 +1,30 @@
+
+<div id="main">
+  <div id="searchBar">
+    <div class="form-group">
+      <input id="searchCity"  placeholder="Enter City Name"/>
+      <button id="citySubmitButton" value="submit" class="btn btn-default" title="Get Weather for this city">Get Weather</button>
+
+    <span id="orText">OR</span>
+      <button class="btn btn-primary"  id="getCurrentLocButton" title="Get Weather for your Current Location">Get Your Current Location</button>
+    </div>
+  </div>
+  <div id="showWeather">
+    <h5>
+      <b>City: </b><span id="cityName"></span><canvas id="weatherIcon" width="64" height="64"></canvas><br><br>
+      <b>Temperature:  </b> <span id="temp"></span>
+      <span id="CorF"></span>
+    <br><br>
+      <b>Humidity: </b><span id="humidity"></span><br><br>
+      <b>Minimum Temperature: </b><span id="minTemp"></span><span id="CorF1"></span><br><br>
+      <b>Maximum Temperature: </b><span id="maxTemp"></span><span id="CorF2"></span><br><br>
+      <b>Weather: </b><span id="weather"></span><br><br>
+      </h5>
+    <button id="changeUnits"class="btn btn-info" title="Interchange between Celcius and Farenheit">Toggle Units</button>
+  </div>
+</div>
+<footer>
+  <div id="credits">Powered by <a href="https://darksky.net/dev/" style="color:#ffffff"target="_blank">Dark Sky</a> API and <a href="https://openweathermap.org/api" style="color:#ffffff"
+ target="_blank">Open Weather Map</a> API</div>
+  <div id="myName">Made by Rohan Saha</div>
+</footer>
