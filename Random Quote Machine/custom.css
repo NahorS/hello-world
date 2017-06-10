@@ -1,0 +1,47 @@
+#quote-box{
+  margin:0px auto;
+  color:#000000;
+  display:table;
+  margin:5% auto 5%a auto;
+  width:500px;
+  border-radius:10px;
+  background-color:#ddd;
+}
+#text{
+  font-size:1.5em;
+  margin:10% auto;
+}
+#quote-text{
+  font-size:1.2em;
+  margin:5%;
+}
+#buttons{
+  margin-top:3em;
+}
+#buttons #post-buttons .button{
+  width:4em;
+  height:3em;
+  border-radius:5px;
+  padding:2%;
+  margin-left:3%;
+  background-color:#aaa;
+}
+#symbols{
+  font-size:150%;
+}
+#author{
+  text-align:right;
+  margin-right:10%;
+}
+#buttons #post-buttons #newQuote{
+  margin-left:50%;
+  width:30%;
+}
+#buttons #post-buttons #newQuote #text{
+  font-size:1.5em;
+}
+#credit{
+  text-align:center;
+  margin-top:-2em;
+  color:#f0f;
+}
