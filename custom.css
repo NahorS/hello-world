@@ -1,0 +1,44 @@
+#main{
+  background-image:linear-gradient(180deg,white 0%,orange 100%);
+}
+img{
+  margin-top:40px;
+  max-width:100%;
+}
+#motivation{
+  margin-top:20px;
+}
+#body{
+  
+  background-color:#d9f7f2;
+  
+  margin:50px auto;
+  padding: 2em 4em 2em 4em;
+}
+
+h3{
+  text-decoration:underline;
+}
+
+p {
+  font-size:18px;
+  font-family: Arial;
+}
+#quote p{
+  text-align:right;
+  margin-top:2px;
+}
+#quote i{
+  font-size:20px;
+}
+#links{
+ font-size:20px;
+}
+#credits{
+  text-align:center;
+
+}
+#end{
+  font-size:20px;
+  font-family:cursive;
+}
